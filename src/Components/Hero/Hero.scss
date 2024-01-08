@@ -106,11 +106,14 @@
       border-radius: 50%;
       right: 0;
       @include mobile{
-        height: 330px;
-        width: 330px;
+        height: 240px;
+        width: 240px;
         border-radius: 50%;
+        position: inherit;
         // right: 10px;
-        // left: auto;
+        bottom: .5rem;
+        left: 2rem;  
+        object-position: center;
       }
     }
   }

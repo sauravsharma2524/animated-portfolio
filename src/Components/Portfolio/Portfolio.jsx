@@ -4,6 +4,14 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    name: "Swiggy Clone",
+    desc: "Swiggy Clone Built using ReactJS and Tailwind CSS",
+    img: "/swiggy.png",
+    link: <a href="https://amazon.sourav2425.repl.co/" />,
+  },
+
+  {
+    id: 2,
     name: "Modern Landing Page",
     desc: "A Modern and Visually Appealing Landing Page Built Using HTMl, Css and Javascript",
     img: "/page.png",
@@ -11,15 +19,15 @@ const items = [
   },
 
   {
-    id: 2,
-    name: "Static Amazon Clone",
-    desc: "A Simple and Static Amazon Home Page Clonebuild using Only HTML And CSS ",
-    img: "/amazon.png",
-    link: <a href="https://amazon.sourav2425.repl.co/" />,
+    id: 3,
+    name: "Simon Says Game",
+    desc: "A Classic Simon Says Game Built Using HTMl, Css and Javascript",
+    img: "/SimonGame.png",
+    link: <a href="https://modern-landing-pagebysaurav.netlify.app" />,
   },
 
   {
-    id: 3,
+    id: 4,
     name: "QR Code Generator",
     desc: "Wanna Generate a QR Code from your Text? Try This QR Generating App, Whatever your write gets converted into a real time QR.",
     img: "/QR.png",
@@ -27,7 +35,7 @@ const items = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Weather App",
     desc: "Wanna Check out Your City's Weather. Well Heres A Real Time Weather Showing App",
     img: "/weather.png",
