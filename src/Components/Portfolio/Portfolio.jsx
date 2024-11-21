@@ -4,34 +4,34 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 2,
-    name: "Modern Landing Page",
-    desc: "A Modern and Visually Appealing Landing Page Built Using HTMl, Css and Javascript",
-    img: "/page.png",
-    link: <a href="https://modern-landing-page-saurav.netlify.app/" />,
+    name: "NexviewGPT",
+    desc: "A Modern video streaming platform with latest and popular Movies & TV Shows",
+    img: "/nexviewgpt.png",
+    link: <a href="https://nexviewgpt.web.app/" />,
   },
 
   {
     id: 3,
-    name: "Simon Says Game",
-    desc: "A Classic Simon Says Game Built Using HTMl, Css and Javascript",
-    img: "/SimonGame.png",
-    link: <a href="https://simon-game-saurav.netlify.app/" />,
+    name: "Image Gallery Web App",
+    desc: "An images gallry web app that lets you view, share & download images",
+    img: "/imagegallery.png",
+    link: <a href="https://image-gallery-saurav.netlify.app/" />,
   },
 
-  {
-    id: 4,
-    name: "QR Code Generator",
-    desc: "Wanna Generate a QR Code from your Text? Try This QR Generating App, Whatever your write gets converted into a real time QR.",
-    img: "/QR.png",
-    link: <a href="https://qr-code-generator.sourav2425.repl.co" />,
-  },
+  // {
+  //   id: 4,
+  //   name: "QR Code Generator",
+  //   desc: "Wanna Generate a QR Code from your Text? Try This QR Generating App, Whatever your write gets converted into a real time QR.",
+  //   img: "/QR.png",
+  //   link: <a href="https://qr-code-generator.sourav2425.repl.co" />,
+  // },
 
   {
     id: 5,
-    name: "Weather App",
-    desc: "Wanna Check out Your City's Weather. Well Heres A Real Time Weather Showing App",
+    name: "Modern Landing Page",
+    desc: "Modern & Aesthetic but simple landing page built using Html, Css & Js",
     img: "/weather.png",
-    link: <a href="https://weather-app.sourav2425.repl.co" />,
+    link: <a href="https://modern-landing-page-saurav.netlify.app/" />,
   },
 ];
 
