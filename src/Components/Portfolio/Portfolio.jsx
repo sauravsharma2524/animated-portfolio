@@ -2,6 +2,15 @@ import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
+
+  {
+    id: 1,
+    name: "Agrowgrad",
+    desc: "Agrowgrad, a website built for new age farmers solving their problems ",
+    img: "/agrowgrad.png",
+    link: <a href="https://agrowgrad.com" />,
+  },
+
   {
     id: 2,
     name: "NexviewGPT",
@@ -18,21 +27,13 @@ const items = [
     link: <a href="https://image-gallery-saurav.netlify.app/" />,
   },
 
-  // {
-  //   id: 4,
-  //   name: "QR Code Generator",
-  //   desc: "Wanna Generate a QR Code from your Text? Try This QR Generating App, Whatever your write gets converted into a real time QR.",
-  //   img: "/QR.png",
-  //   link: <a href="https://qr-code-generator.sourav2425.repl.co" />,
-  // },
-
   {
-    id: 5,
+    id: 4,
     name: "Modern Landing Page",
     desc: "Modern & Aesthetic but simple landing page built using Html, Css & Js",
-    img: "/weather.png",
+    img: "/page.png",
     link: <a href="https://modern-landing-page-saurav.netlify.app/" />,
-  },
+  }
 ];
 
 const Single = ({ item }) => {
