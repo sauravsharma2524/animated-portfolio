@@ -15,8 +15,12 @@ function Navbar() {
           Saurav 
         </motion.span>
         <div className="social">
-          <a href="https://instagram.com/ishhh.sourav?igshid=ZGUzMzM3NWJiOQ==">
+          {/* <a href="https://instagram.com/ishhh.sourav?igshid=ZGUzMzM3NWJiOQ==">
             <img src="/instagram1.png" alt="Instagram" />
+          </a> */}
+
+          <a href="https://github.com/sauravsharma2524">
+            <img src="/github.png" alt="github" />
           </a>
 
           <a href="https://wa.me/917667559570?text=Hi%20Saurav">
